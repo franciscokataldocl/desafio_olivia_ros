@@ -1,5 +1,6 @@
 :root{
     --black:#373A3C;
+    --dark:#0F0F0F;
     --white: white;
     --blue: #17A2B8;
     --raleway:"Raleway", sans-serif;
@@ -29,6 +30,9 @@ font-weight: var(--font-regular);
 .bg-blue{
     background:var(--blue);
 }
+.bg-dark{
+    background:var(--dark);
+}
 .hero-container{
     background: url(../img/bg-hero.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -53,4 +57,43 @@ font-weight: var(--font-regular);
 
 .about-section ul li{
     list-style: none;
+}
+.card-icon p{
+max-width:250px;
+}
+
+.image-cutter{
+    height: 260px;
+    overflow: hidden;
+}
+.btn-blue{
+    border:var( --blue) solid 1px;
+    color:var(--white);
+    background:var(--blue);
+}
+.btn-blue:hover{
+    border:var( --blue) solid 1px;
+    color:var(--white);
+    background:var(--blue);
+}
+.btn-blue-outline{
+    border:var( --blue) solid 1px;
+    color:var(--white);
+}
+.btn-blue-outline:hover{
+    background:var( --blue);
+    color:white;
+    border:var( --blue) solid 1px;
+}
+.btn-blue-outline-negative{
+    color:var(--blue);
+}
+
+/* toggle */
+.navbar-toggler{
+    border: white solid 1px;
+}
+.navbar-toggler-icon{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }

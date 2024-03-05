@@ -49,8 +49,8 @@
             <h1 class="c-white f-black">Comidas del fin del mundo</h1>
         <p class="c-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus. Nunc at enim et lacus porttitor tincidunt. Donec imperdiet augue nec aliquet sagittis.</p>
         <div class="hero_buttons">
-            <button type="button" class="btn btn-outline-primary c-white">Primary</button>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-outline-primary btn-blue-outline">Primary</button>
+            <button type="button" class="btn btn-primary btn-blue">Primary</button>
         </div>
         </article>
 
@@ -64,19 +64,19 @@
         
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4 col-sm-12 card-icon d-flex justify-content-center flex-column align-items-center">
                     <i class="fa-solid fa-camera fa-3x mb-3"></i>
                     <h4>Fotógrafa de comida</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
                 </li>
                 </div>
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4 col-sm-12 card-icon d-flex justify-content-center flex-column align-items-center">
                     <i class="fa-solid fa-bullhorn fa-3x mb-3"></i>
                 <h4>Crítica culinaria</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
             
                 </div>
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4 col-sm-12 card-icon d-flex justify-content-center flex-column align-items-center">
                     <i class="fa-regular fa-map fa-3x mb-3"></i>
                 <h4>Bloggera de viajes</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
@@ -95,34 +95,40 @@
         <div class="row">
             <!--card-->
             <div class="col-lg-4 col-sm-12">
-                <div class="card">
-                    <img src="./assets/img/card-1.jpg" class="card-img-top" alt="...">
+                <div class="card my-2">
+                    <div class="image-cutter">
+                        <img src="./assets/img/card-1.jpg" class="card-img-top" alt="...">
+                    </div>
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-outline-primary btn-blue-outline btn-blue-outline-negative">Go somewhere</a>
                     </div>
                   </div>
             </div><!--end card-->
             <!--card-->
             <div class="col-lg-4 col-sm-12">
-                <div class="card">
-                    <img src="./assets/img/card-2.jpg" class="card-img-top" alt="...">
+                <div class="card my-2">
+                    <div class="image-cutter">
+                        <img src="./assets/img/card-2.jpg" class="card-img-top" alt="...">
+                    </div>
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-outline-primary btn-blue-outline btn-blue-outline-negative">Go somewhere</a>
                     </div>
                   </div>
             </div><!--end card-->
             <!--card-->
             <div class="col-lg-4 col-sm-12">
-                <div class="card">
-                    <img src="./assets/img/card-3.jpg" class="card-img-top" alt="...">
+                <div class="card my-2">
+                    <div class="image-cutter">
+                        <img src="./assets/img/card-3.jpg" class="card-img-top" alt="...">
+                    </div>
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-outline-primary btn-blue-outline btn-blue-outline-negative">Go somewhere</a>
                     </div>
                   </div>
             </div><!--end card-->
@@ -130,6 +136,40 @@
     </section>
     <!--end section work-->
 
+    <!--section work-->
+    <section class="container-fluid site-padding-lr py-5">
+       <div class="container">
+        <h2 class="text-center mb-3 c-white f-black c-black">Contactame</h2>
+        <p class="c-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus. Nunc at enim et lacus porttitor tincidunt. Donec imperdiet augue nec aliquet sagittis.</p>
+
+        <!--formulario-->
+        <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" aria-describedby="nombre">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email">
+              </div>
+
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3"></textarea>
+              </div>
+     
+            <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary btn-blue ">Enviar</button>
+           </div>
+          </form>
+        <!--end formulario-->
+       </div>
+      
+    </section>
+    <!--end section work-->
+    <footer class="bg-dark p-4 text-center">
+<p class="c-white">Olivia Ros <strong id="year"></strong>. Todos los derechos reservados.</p>
+    </footer>
 
 
 <!--adolfo y felipe invitar al repo-->
@@ -138,6 +178,11 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/1ad65aac44.js" crossorigin="anonymous"></script>
+    <script>
+        const thisYear = new Date().getFullYear();
+        const year = document.getElementById('year').innerText = thisYear;
+     
+    </script>
 </body>
 
 </html>
