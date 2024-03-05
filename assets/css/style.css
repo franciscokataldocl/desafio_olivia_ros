@@ -1,0 +1,56 @@
+:root{
+    --black:#373A3C;
+    --white: white;
+    --blue: #17A2B8;
+    --raleway:"Raleway", sans-serif;
+    --font-regular:400;
+    --font-black:700;
+}
+body{
+    font-family: var(--raleway);
+}
+.navbar{
+    background-color:var(--black)!important;
+    padding: 23px 0;
+}
+.c-white{
+    color:var(--white)!important;
+}
+.c-black{
+    color:var(--black)!important;
+}
+
+.f-regular{
+font-weight: var(--font-regular);
+}
+.f-black{
+    font-weight: var(--font-black);
+}
+.bg-blue{
+    background:var(--blue);
+}
+.hero-container{
+    background: url(../img/bg-hero.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:70vh;
+    padding:0 15%;
+}
+.site-padding-lr{
+    padding-left: 7%;
+    padding-right:7%;
+}
+.hero_buttons{
+
+}
+
+.about-section ul{
+    padding:0;
+    margin: 0 auto;
+}
+
+.about-section ul li{
+    list-style: none;
+}
